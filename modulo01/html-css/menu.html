@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu babado com HTML e CSS</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(to right, purple, plum, pink);
+        }
+
+        header {
+            background-color: blueviolet;
+            padding-inline: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            text-align: center;
+            color: white;
+            margin: auto 0px;
+        }
+
+
+        nav {
+            max-width: 1200px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 32px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            padding-block: 16px;
+            margin-inline: auto;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            background: none;
+            border-top: 3px solid white;
+            cursor: pointer;
+        }
+
+        button::after button::before {
+            content: ' ';
+            display: block;
+            width: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Victor</h1>
+        <button></button>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produto</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </nav>
+    </header>
+</body>
+</html>

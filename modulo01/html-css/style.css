@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+        background-color: black;
+        color: white;
+    }
+mark {
+    background-color: aqua;
+   }
+p {
+    color: white;
+    text-align: justify;
+   }

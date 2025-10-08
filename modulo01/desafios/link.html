@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links do Mal</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: blue;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        a:hover {
+            color: underline;
+        }
+
+        a::before {
+            content: "[link] ";
+            text-decoration: none;
+            color: gray;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://boxd.it/dM0Y5" target="_blank">Letterboxd</a></li>
+        <li><a href="https://www.reddit.com/user/V1ct0r_Fr4nk3nst31n/downvoted/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">Reddit</a></li>
+        <li><a href="https://www.youtube.com/@vick5813" target="_blank">Youtube</a></li>
+    </ul>
+</body>
+</html>
